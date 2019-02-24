@@ -3,7 +3,7 @@ function submit(){
     var eventName = document.getElementsByName("text")[0].value;
     var date_now = new Date();
     if (date_now > dateCountdown){
-        console.log('This date is in the past!');
+        alert('This date is in the past!');
         return
     }
 
